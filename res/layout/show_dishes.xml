@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:id="@+id/dishlistview"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:scrollbars="vertical"
+	    >
+	    <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_marginTop="-25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+      <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp" />
+	    <Button android:id="@+id/dishfetchedbutton"
+		        android:text="第二步：确认取餐成功"
+		        android:layout_height="wrap_content"
+		        android:layout_width="fill_parent"
+		        android:layout_weight="0"
+		        android:textSize="25sp"
+		  />
+	</LinearLayout>
+</TabHost>

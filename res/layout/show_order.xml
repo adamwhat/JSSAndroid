@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:scrollbars="vertical">
+	<LinearLayout android:id="@+id/showorder"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:scrollbars="vertical">
+		<TextView android:id="@+id/orderid" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:paddingBottom="20dip"
+			android:textSize="20sp" android:textColor="#FFD700" />
+
+		<TextView android:id="@+id/restaurant_name"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:textColor="#FFFFFF" android:textSize="25sp"
+			android:layout_marginBottom="20dip" />
+
+		<TextView android:id="@+id/restaurant_address"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:textSize="20sp" android:textColor="#8b8989"
+			android:layout_marginBottom="15dip" />
+		<Button android:id="@+id/maprestaurant" android:text="餐馆地图"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:textSize="25sp" android:padding="15dip" />
+
+		<TextView android:id="@+id/orderdetails"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:textSize="20sp" android:paddingTop="20dip" />
+		<TextView android:id="@+id/countdown" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:paddingBottom="20dip"
+			android:textSize="20sp" android:textColor="#FFD700" />
+		<TextView android:id="@+id/ordercomment"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:textSize="20sp" android:textColor="#FF0000"
+			android:paddingBottom="20dip" android:visibility="invisible" />
+		<Button android:id="@+id/dishinfo" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:textSize="25sp"
+			android:padding="15dip" />
+
+		<ImageView android:src="@drawable/down"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginTop="20dip" />
+
+		<TextView android:id="@+id/customerdetails"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:textSize="20sp" android:textColor="#FFFFFF"
+			android:paddingTop="20dip" />
+
+		<TextView android:id="@+id/price" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:textSize="20sp"
+			android:textColor="#FF0000" android:paddingTop="20dip" />
+
+		<TableRow android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:paddingBottom="20dip">
+			<Button android:id="@+id/callcustomer" android:text="联系顾客"
+				android:layout_height="wrap_content" android:layout_width="150dip"
+				android:textSize="25sp" android:padding="15dip" />
+
+			<Button android:id="@+id/customermap" android:text="顾客地图"
+				android:layout_height="wrap_content" android:layout_width="150dip"
+				android:textSize="25sp" android:padding="15dip" />
+		</TableRow>
+
+		<Button android:id="@+id/delivery_route" android:text="到达线路"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:textSize="25sp" android:padding="15dip" />
+
+		<Button android:id="@+id/closeorder" android:text="第三步：完成并评分"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:textSize="25sp" android:padding="15dip" />
+	</LinearLayout>
+</ScrollView>

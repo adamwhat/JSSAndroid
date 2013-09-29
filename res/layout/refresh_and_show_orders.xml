@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/orderlistview"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+  <ImageView android:id="@+id/alert"
+  android:scaleType="fitCenter" 
+  android:src="@drawable/alert"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:visibility="invisible"
+  />
+  
+	<TextView	android:id="@+id/statuslabel"
+	android:gravity="center_horizontal"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:textSize="25sp"
+	android:layout_margin="40dip"
+	/>
+	<ListView android:id="@+id/orderlist"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:layout_weight="1"
+	android:scrollbars="vertical"
+  android:choiceMode="singleChoice"
+	android:background="#8b8989"
+	/>
+	<Button android:id="@+id/refresh_button"
+  android:text="更新订单"
+  android:layout_height="wrap_content"
+  android:layout_width="fill_parent"
+  android:layout_weight="0"
+  android:textSize="25sp"
+  />
+	<Button android:id="@+id/logout_button"
+  android:text="退出登录"
+  android:layout_height="wrap_content"
+  android:layout_width="fill_parent"
+  android:layout_weight="0"
+  android:textSize="25sp"
+  android:visibility="gone"
+  />
+</LinearLayout>	
+

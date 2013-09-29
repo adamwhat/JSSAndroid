@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/jinshisong_dishes_listview"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:scrollbars="vertical"
+      >
+<TextView android:id="@+id/jinshisong_dishes_label"
+    android:text="酒水详情"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_weight="0"
+    android:textSize="20sp"
+    />
+    <ListView android:id="@+id/jinshisong_dishes_list"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:scrollbars="vertical"
+    android:choiceMode="none"
+    />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">锦食送</string>
+    <string name="track_title">实时定位</string>
+    <string name="initializing">程序正在初始化...</string>
+    <string name="initialize_failed">程序启动失败</string>
+    <string name="request_auth">正在请求授权</string>
+    <string name="tracking">正在定位</string>
+    <string name="starting_track">正在开启定位功能</string>
+    <string name="track_stopped">定位功能已停止</string>
+    <string name="track_not_started">尚未开始定位</string>
+    <string name="auth_error">授权失败，请重新尝试</string>
+    <string name="network_error">网络错误，请确保手机可以访问网络</string>
+    <string name="last_update_time">正在定位。上次上传位置时间: </string>
+    
+    <string name="input_auth_code">请输入授权码: </string>
+    <string name="ok_button">确定</string>
+    
+    <string name="setting_dialog_message">锦食送需要手机定位功能，请在设置中选择“使用无线网络”和“使用GPS卫星”</string>
+    <string name="auth_dialog_message">锦食送定位功能需要你的谷歌定位授权，将重定向到谷歌授权页面，完成授权后，请将授权码输入到本程序</string>
+	<string name="close_warning_dialog_message">是否停止定位？</string>
+	
+	<string name="network_error_notification_title">网络错误</string>
+	<string name="network_error_notification_content">请确保手机可以访问网络</string>
+	<string name="auth_error_notification_title">授权失败</string>
+	<string name="auth_error_notification_content">请重试</string>
+</resources>

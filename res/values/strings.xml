@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">锦食送助手 2.3.1</string>
+  <string name="app_version">2.3.1</string>
+  <string name="server_url">http://www.jinshisong.com/services/xmlrpc</string>
+
+    <string name="track_title">Track Location</string>
+    <string name="initializing">Please wait. App initializing...</string>
+    <string name="initialize_failed">Initialize failed</string>
+    <string name="request_auth">Requesting authorization</string>
+    <string name="tracking">Tracking</string>
+    <string name="starting_track">Starting Track</string>
+    <string name="track_stopped">Track Stopped</string>
+    <string name="track_not_started">Track Not Started</string>
+    <string name="auth_error">Authorization failed, please try again</string>
+    <string name="network_error">Network error, please set your phone to access netwrok</string>
+    <string name="last_update_time">Tracking. Last time to update location: </string>
+    
+    <string name="input_auth_code">Input the authorization code: </string>
+    <string name="ok_button">OK</string>
+    
+    <string name="setting_dialog_message">To use JinShiSong, you have to open wireless network and GPS in setting. Do you want to go to set them?</string>
+    <string name="auth_dialog_message">To track location, you must allow JinShiSong to access your google location data. Do you want to allow it?</string>
+	<string name="close_warning_dialog_message">This will stop location tracking. Are you sure you want to stop this?</string>
+	
+	<string name="network_error_notification_title">Network error</string>
+	<string name="network_error_notification_content">Please check your network setting</string>
+	<string name="auth_error_notification_title">Authorization error</string>
+	<string name="auth_error_notification_content">Please try again</string>
+
+</resources>
